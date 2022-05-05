@@ -1,0 +1,38 @@
+none {
+  width: 100%;
+  height: 100%;
+}
+.cabeçalho{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #a668a6
+}
+
+.nome {
+  padding: 10px;
+}
+ul{
+  display: flex;
+  text-align: center;
+}
+.itens{
+  list-style: none;
+  display: flex;
+}
+
+.itens > li{
+    padding: 20px;
+}
+
+.link {
+  color: blue;
+}
+h1{
+  
+}
+h2{
+  text-align: center;
+}
+
