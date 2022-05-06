@@ -2,16 +2,25 @@ none {
   width: 100%;
   height: 100%;
 }
+
+
 .cabeçalho{
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #a668a6
+  background-color: #a668a6;
+  font-weight: bold;
+}
+
+#title{
+  font-weight: bolder;
+  color: black;
 }
 
 .nome {
   padding: 10px;
+  margin-right: 40px;
 }
 ul{
   display: flex;
@@ -20,19 +29,47 @@ ul{
 .itens{
   list-style: none;
   display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: -25px;
 }
 
 .itens > li{
-    padding: 20px;
+    padding: 30px;
 }
 
 .link {
-  color: blue;
+  color: black;
 }
 h1{
   
 }
 h2{
   text-align: center;
+  font-weight: bold ;
 }
 
+.funcionalidades > h3{
+  margin-left: 25px;
+}
+
+.funcionalidades > p{
+  margin-left: 15px;
+}
+
+#duvida{
+  text-align: center;
+}
+
+.formulario{
+  text-align: center;
+}
+
+#form-area{
+  border-spacing: 5em;
+  border-radius: 20px;
+  border-color: #090a0a;
+  background-color: whitesmoke;
+  margin-left: 25%;
+  margin-right: 25%;
+}
