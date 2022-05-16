@@ -42,7 +42,7 @@ ul{
   color: black;
 }
 h1{
-  
+  text-align: center;
 }
 h2{
   text-align: center;
@@ -72,4 +72,12 @@ h2{
   background-color: whitesmoke;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+/* diario */
+ 
+.diario{
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
 }
