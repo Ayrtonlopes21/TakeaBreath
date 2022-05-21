@@ -9,13 +9,17 @@ none {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #a668a6;
+  background-color: #92015dcb;
   font-weight: bold;
 }
 
 #title{
   font-weight: bolder;
   color: black;
+}
+
+.subtitle{
+  color: rgb(24, 23, 23);
 }
 
 .nome {
@@ -40,6 +44,11 @@ ul{
 
 .link {
   color: black;
+}
+
+#head_login {
+  font-size: 15px;
+  text-align: center;
 }
 h1{
   text-align: center;
