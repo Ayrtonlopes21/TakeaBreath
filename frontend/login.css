@@ -75,7 +75,7 @@ body {
 }
 
 .form-header h1::after {
-    content: '';
+    content: ''; /*2*/
     display: block;
     width: 27rem;
     height: 0.3rem;
@@ -86,7 +86,7 @@ body {
 }
 
 .form-header h2::after {
-    content: '';
+    content: ''; /*3*/
     display: block;
     width: 7rem;
     height: 0.3rem;
