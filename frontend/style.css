@@ -9,7 +9,7 @@ none {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3271B6;
+  background-image: linear-gradient(to right, #504 , #3271B6 );
   font-weight: bold;
 }
 
@@ -19,7 +19,7 @@ none {
 }
 
 .subtitle{
-  color: rgb(24, 23, 23);
+  color: white;
 }
 
 .nome {
@@ -43,7 +43,8 @@ ul{
 }
 
 .link {
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
 #head_login {
@@ -56,6 +57,9 @@ h1{
 h2{
   text-align: center;
   font-weight: bold ;
+  background-image: linear-gradient(to right, #504 , #3271B6 );
+  color: white;
+  height: 50px;
 }
 
 .funcionalidades > h3{
@@ -89,4 +93,11 @@ h2{
   text-align: center;
   width: 50%;
   margin-left: 25%;
+}
+
+.d {
+
+  text-decoration: none;
+  color: rgb(22, 21, 21);
+  margin-left: 25px;
 }
