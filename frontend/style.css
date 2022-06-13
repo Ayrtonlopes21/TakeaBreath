@@ -89,7 +89,7 @@ h2{
 
 /* diario */
  
-.diario{
+.diario_text{
   text-align: center;
   width: 50%;
   margin-left: 25%;
@@ -100,4 +100,32 @@ h2{
   text-decoration: none;
   color: rgb(22, 21, 21);
   margin-left: 25px;
+}
+
+.page-change{
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.diario_pag{
+  color: gray;
+  text-decoration: none;
+}
+
+.diario_pag:hover {
+  color: darkgrey;
+}
+
+.diario_save{
+  width: 10%;
+    margin-top: 2.5rem;
+    margin-left: 45.5%;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: large;
 }

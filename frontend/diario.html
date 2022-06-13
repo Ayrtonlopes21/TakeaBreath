@@ -10,6 +10,7 @@
  <link href="style.css" rel="stylesheet" type="text/css" />
  
 </head>
+
 <body>
   <header class="cabeçalho"> 
     <div class="nome">
@@ -31,8 +32,16 @@
   
   <h2>O que está esperando? Escreva!</h2><br>
   
-  <textarea name="diario" class="diario" cols="30" rows="10">Primeira página</textarea></textarea>
-  <textarea name="diario" class="diario" cols="30" rows="10">Segunda página</textarea>
+  <div class="page-change">
+    <p><a class="diario_pag" href="#"><img src="img/Emoji-Seta-PNG-1024x1024.png" alt="voltar" width="30px" style="transform: rotate(180deg);">Página anterior</a></p>
+    <p><a class="diario_pag" href="#">Próxima Página<img src="img/Emoji-Seta-PNG-1024x1024.png" alt="proxima" width="30px"></a></p>
+  </div>
 
+  <h1>Página X</h1><br>
+  <form class="diario" action="">
+    <textarea name="diario" class="diario_text" cols="30" rows="10" placeholder="Como foi o seu dia?"></textarea></textarea><br>
+    <button class="diario_save">Salvar</button>
+  </form>
+  
 </body>
 </html>
