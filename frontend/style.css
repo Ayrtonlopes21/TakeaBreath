@@ -20,11 +20,20 @@ none {
 
 .subtitle{
   color: white;
+  text-decoration: none;
+}
+
+.subtitle:hover {
+  color: white;
 }
 
 .nome {
   padding: 10px;
   margin-right: 40px;
+}
+
+.nome:hover {
+  text-decoration: underline;
 }
 ul{
   display: flex;
@@ -54,7 +63,7 @@ ul{
 h1{
   text-align: center;
 }
-h2{
+.head{
   text-align: center;
   font-weight: bold ;
   background-image: linear-gradient(to right, #504 , #3271B6 );
@@ -68,10 +77,6 @@ h2{
 
 .funcionalidades > p{
   margin-left: 15px;
-}
-
-#duvida{
-  text-align: center;
 }
 
 .formulario{
