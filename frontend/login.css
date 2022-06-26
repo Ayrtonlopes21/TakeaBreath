@@ -4,17 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-}
-h1{
-    margin: 1%;
-    text-align: justify;
-}
-h2{
-    margin: 1%;
-}
-h3{
-    text-align: justify;
-}
+} 
 body {
     width: 100%;
     height: 100vh;
