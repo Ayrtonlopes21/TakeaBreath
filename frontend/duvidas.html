@@ -9,44 +9,46 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <header class="cabeçalho">
-    <div class="nome">
-      <h1 id="title" ><a id="title" href="index.html"><img src="img/logo.png" alt="take a breath" width="200"></a></h1>
-     <p class="subtitle"><a href="index.html" class="subtitle">Seu diário digital 100% seguro</a></p>
-    </div>
-  
-    <ul class="itens">
-      <li><a class="link" href="diario.html">Diario</a></li>
-      <li><a class="link" href="contatos.html">Contatos</a></li>
-      <li><a class="link" href="sobre.html">Sobre</a></li>
-      <li><a class="link" href="duvidas.html">Dúvidas</a></li>
-    </ul>
+  <header>
+    <nav class="cabeçalho">
+      <div class="nome">
+        <h1 id="title" ><a id="title" href="index.html"><img src="img/logo.png" alt="take a breath" width="250"></a></h1>
+      <p class="subtitle"><a href="index.html" class="subtitle">Seu diário digital 100% seguro</a></p>
+      </div>
+    
+      <ul class="itens">
+        <li><a class="link" href="diario.html">Diario</a></li>
+        <li><a class="link" href="contatos.html">Contatos</a></li>
+        <li><a class="link" href="sobre.html">Sobre</a></li>
+        <li><a class="link" href="duvidas.html">Dúvidas</a></li>
+      </ul>
 
-    <div class="login">
-      <a href="login.html" class="link" id="head_login"><img src="img/avatar.png" alt="login" height="50" width="50"><br>Login</a>
-    </div>
+      <div class="login">
+        <a href="login.html" class="link" id="head_login"><img src="img/avatar.png" alt="login" height="50" width="50"><br>Login</a>
+      </div>
+  </nav>
 </header>
   <h2 class="head">Dúvidas? Escreva-nos!</h2><br><br>
   
   <form action="">
     <fieldset class="formulario" id="form-area">
-      <div class="form-group">
-        <label for="nome">Nome</label>
+      <div class="mt-2 mb-3 me-5 ms-5">
+        <label for="nome" class="form-label">Nome</label>
         <input name="nome" type="text" class="form-control" id="nome" placeholder="Seu nome" required>
       </div>
       
-      <div class="form-group">
-        <label for="email">E-mail</label>
+      <div class="mb-3 me-5 ms-5">
+        <label for="email" class="form-label">E-mail</label>
         <input name="email" type="email" class="form-control" id="email" placeholder="email@email.com" required>
       </div>
   
-      <div class="form-group">
-        <label for="title">Título do Assunto</label>
+      <div class="mb-3 me-5 ms-5">
+        <label for="title" class="form-label">Título do Assunto</label>
         <input name="title" type="text" class="form-control" id="title" placeholder="Ex:Sugestão" required>
       </div>
         
-      <div class="form-group">
-        <label for="type">Tipo do Assunto</label>
+      <div class="mb-3 me-5 ms-5">
+        <label for="type" class="form-label">Tipo do Assunto</label>
         <select name="type" class="form-control" id="type" required>
           <option value="default" selected>- selecione -</option>
           <option value="reclamacao">Reclamação</option>
@@ -56,12 +58,14 @@
         </select>
       </div>
       
-      <div class="form-group">
-        <label for="message">Mensagem</label>
+      <div class="mb-3 me-5 ms-5">
+        <label for="message" class="form-label">Mensagem</label>
         <textarea name="message" class="form-control" id="message" cols="10" rows="5" placeholder="Digite aqui sua mensagem" required></textarea>
       </div>
       
-      <button type="submit" onsubmit="">Enviar</button>
+      <div class="mb-3">
+        <button class="btn btn-info" type="submit" onsubmit="">Enviar</button>
+      </div>
     </fieldset>
   </form>
 </body>
